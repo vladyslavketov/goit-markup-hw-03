@@ -16,8 +16,8 @@
   --project-item-cl: #EEEEEE;
 
   /* others */
-  --items: 3;
-  --indent: 30px;
+  /* --items: 3;
+  --indent: 30px; */
 }
 
 body {
@@ -182,12 +182,14 @@ color: var(--accent-cl);
 /* блок main - index.hmtl (start) */
 /* секція hero */
 .hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-color: var(--footer-bg-cl);
 }
 
 .hero-title {
-  margin-top: 0;
-  margin-bottom: 30px;
+  max-width: 696px;
+  margin: 0px auto;
 
   font-weight: 900;
   font-size: 44px;
@@ -200,6 +202,7 @@ color: var(--accent-cl);
 
 .hero-btn {
   display: block;
+  margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
   padding: 10px 32px;
